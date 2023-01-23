@@ -47,3 +47,15 @@ https://fluent-emoji.ciffelia.com/1fae0_high-contrast.svg
 ```
 
 [![melting face emoji (high contrast, SVG)](https://fluent-emoji.ciffelia.com/1fae0_high-contrast.svg)](https://fluent-emoji.ciffelia.com/1fae0_high-contrast.svg)
+
+## ZWJ Sequences
+
+```js
+console.log([...'🙋🏻‍♀️'].map((cp) => cp.codePointAt(0).toString(16)).join('-')); // => 1f64b-1f3fb-200d-2640-fe0f
+```
+
+```
+https://fluent-emoji.ciffelia.com/1f64b-1f3fb-200d-2640-fe0f_3d.webp
+```
+
+[![woman raising hand: light skin tone emoji (3D, WebP)](https://fluent-emoji.ciffelia.com/1f64b-1f3fb-200d-2640-fe0f_3d.webp)](https://fluent-emoji.ciffelia.com/1f64b-1f3fb-200d-2640-fe0f_3d.webp)
