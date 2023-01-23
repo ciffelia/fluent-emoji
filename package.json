@@ -4,8 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "ts-node-esm --files ./src/main.ts",
-    "lint": "prettier --check .",
-    "typecheck": "tsc"
+    "lint": "prettier --check ."
   },
   "dependencies": {
     "p-map": "^5.5.0",
