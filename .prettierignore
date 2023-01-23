@@ -1,0 +1,14 @@
+# Yarn
+/node_modules
+/.yarn
+/.yarnrc.yml
+/.pnp.*
+
+# Submodules
+/fluentui-emoji
+
+# Build output
+/dist
+
+# WebStorm
+/.idea
