@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "ts-node-esm --files ./src/main.ts",
+    "deploy": "yarn run build && cp ./src/_redirects ./dist/_redirects",
     "lint": "prettier --check ."
   },
   "dependencies": {
