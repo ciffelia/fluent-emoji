@@ -21,7 +21,7 @@ export const processFile = async (
   distDirPath: string,
 ): Promise<void> => {
   if (process.platform === 'win32' && [...file.glyph].includes('*')) {
-    console.warn(`Warn: glyph ${file.glyph} contains asterisk. Skipping.`);
+    console.warn(`Warn: glyph "${file.glyph}" contains asterisk. Skipping.`);
     return;
   }
 
